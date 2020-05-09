@@ -1,0 +1,161 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+
+* {margin: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box;}
+
+:root {
+    --primary-color: #446600;
+    --primary-gray: #ebebe0;
+}
+
+body {
+    /*background-image: url("./files/virus1.jpg");*/
+    background-color: var(--primary-gray);
+}
+
+.main {
+    margin-top: 110px;
+}
+
+#box1, #box2, #box3 {
+    margin-left: 10%;
+    width: 80%;
+    height: 440px;
+    background-color: var(--primary-color);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.22);
+    border-radius: 20px;
+    justify-content: left;
+    transition-duration: 100ms;
+    transition-timing-function: linear;
+}
+
+#box2, #box3 {
+    margin-top: 60px;
+}
+
+/* #box1:hover {width: 40%;}
+#box3:hover {width: 40%;}
+#box2:hover {width: 40%;} */
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 9%;
+    align-items: center;
+    justify-content: left;
+    background-color: var(--primary-color);
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.22);
+}
+
+#definition, #prevention, #statistics {
+    color: var(--primary-gray);
+    margin-left: 5%;
+}
+
+#pagename {
+    margin-left: 8px;
+    margin-top: 30px;
+    font-family: tahoma;
+    font-size: 160%;
+}
+
+#pgname {
+    color: var(--primary-gray);
+}
+
+#warn {
+    margin-left: 50px;
+    color: var(--primary-gray);
+}
+
+#logo-topic {
+    margin-top: 25px;
+    margin-left: 2%;
+    color: var(--primary-gray);
+}
+
+#topic {
+    margin-left: 10px;
+    margin-top: 45px;
+    font-family: tahoma;
+    font-size: 19px;
+    font-weight: bold;
+    color: var(--primary-gray);
+}
+
+.box-name {
+    width: 90%;
+    height: 25%;
+    display: flex;
+    border-bottom: 1px solid var(--primary-gray);
+}
+
+.box-description, .box-description2 {
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 17px;
+    height: 60%;
+}
+
+.text-description, .list {
+    color: var(--primary-gray);
+}
+
+.second {
+    height: 500px;
+}
+
+.titlesecond {
+    margin-left: 0px;
+}
+
+#descriptionsecondwhat, #descriptionsecondprevent {
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 80%;
+}
+
+#descriptionsecondprevent {
+ margin-top: 100px;  
+}
+
+.seconddescription {
+    margin-left: 20px;
+}
+
+#more, #knmore, #knmore2 {
+    color: var(--primary-gray);
+}
+
+#more {
+    margin-left: 25px;
+}
+
+#statistics-start {
+    color: var(--primary-gray);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.link {
+    color: var(--primary-gray);
+    font-weight: bold;
+}
+
+.statistics-titles {
+    color: var(--primary-gray);
+    margin-left: 20px;
+}
+
+#country, #npopulation, #ncases, #ndeaths {
+    color:var(--primary-gray);
+    margin-left: 20px;
+}
+
+#signature {
+    color: black;
+}
